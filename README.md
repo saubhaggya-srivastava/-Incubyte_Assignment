@@ -157,12 +157,6 @@ Run tests sequentially (recommended):
 npm test -- --runInBand
 ```
 
-**Test Results:**
-
-- ✅ 196 tests passing
-- ✅ 81% overall coverage
-- ✅ 12 test suites
-
 ### Test Structure
 
 - Unit tests for services, repositories, and middleware
@@ -269,74 +263,8 @@ Content-Type: application/json
 }
 ```
 
-## My AI Usage
 
-### AI Tools Used
 
-I used **Kiro AI Assistant** (powered by Claude) throughout this project for code generation, testing, and architecture decisions.
-
-### How I Used AI
-
-#### 1. Project Architecture & Planning
-
-- Used AI to help design the overall architecture following clean code principles
-- Generated the initial project structure with proper separation of concerns
-- Created comprehensive task breakdown following TDD methodology
-
-#### 2. Backend Development
-
-- **Test-Driven Development**: AI helped write tests first, then implementation
-- Generated repository layer with Prisma ORM integration
-- Created service layer with business logic and validation
-- Implemented controller layer with proper error handling
-- Set up middleware for authentication and authorization
-- Configured Express server with all routes
-
-#### 3. Frontend Development
-
-- Generated React components with TypeScript
-- Created API client service with Axios
-- Implemented authentication context with localStorage persistence
-- Built protected routes and admin-only routes
-- Designed responsive UI with Tailwind CSS
-- Added loading states and error handling
-
-#### 4. Testing Strategy
-
-- AI generated comprehensive unit tests for all services
-- Created integration tests for API endpoints
-- Achieved 81% test coverage with 196 passing tests
-- Followed Red-Green-Refactor TDD cycle
-
-#### 5. Code Quality
-
-- AI helped ensure TypeScript type safety throughout
-- Generated proper error handling and validation
-- Implemented security best practices (JWT, bcrypt, input validation)
-- Followed RESTful API conventions
-
-### Reflection on AI Impact
-
-**Positive Impacts:**
-
-- **Speed**: Dramatically accelerated development time while maintaining quality
-- **Consistency**: AI helped maintain consistent code style and patterns
-- **Best Practices**: AI suggested industry-standard approaches for authentication, validation, and error handling
-- **Testing**: Generated comprehensive test suites that I might have skipped manually
-- **Documentation**: Helped create clear, detailed documentation
-
-**Learning Points:**
-
-- AI is excellent for boilerplate and repetitive code
-- Still need human oversight for business logic and architecture decisions
-- AI-generated tests caught several edge cases I hadn't considered
-- Combining AI assistance with TDD methodology produced high-quality, well-tested code
-
-**Challenges:**
-
-- Occasionally needed to refine AI suggestions to match specific requirements
-- Had to ensure AI-generated code followed project conventions
-- Required manual review to ensure all pieces integrated correctly
 
 ## Project Structure
 
@@ -411,12 +339,10 @@ This project was built following Test-Driven Development (TDD) principles:
 2. **Green**: Implement minimal code to pass tests
 3. **Refactor**: Improve code while keeping tests green
 
-All commits include AI co-authorship attribution as requested.
 
 ## License
 
 MIT
 
 ## Author
-
-Built as a TDD kata project with AI assistance (Kiro AI powered by Claude).
+Saubhaggya Srivastava 
